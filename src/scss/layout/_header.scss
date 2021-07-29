@@ -50,7 +50,19 @@
       text-align: center;
     }
 
+    &--arrow {
+      width: 45px;
+      height: 45px;
+      border-radius: 22.5px;
+      background-color: $color-secondary;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      position: relative;
+      top: 56px;
+    }
   }
+
   
 }
   

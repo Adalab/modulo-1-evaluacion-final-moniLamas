@@ -4,7 +4,7 @@
   background-image: url('../images/cover.jpg');
   background-size: cover;
   background-position: center;
- 
+
   &__menu {
     position: fixed;
     height: 44px;
@@ -24,29 +24,40 @@
 
     &--bigtitle {
       color: $color-secondary;
+
       text: {
         align: center;
         transform: uppercase;
         shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-        }
+      }
+
       line-height: 55px;
+
       font: {
         family: $font-title;
         size: 42px;
-        }
+      }
+
       width: 290px;
       height: 110px;
       margin-bottom: 10px;
+      
+
+      // @media all and (min-width: 768px; ) {
+      //   font-size: 80px;
+      // }
     }
-    
-    
+
+
     &--subtitle {
       color: $color-secondary;
-      font:{
+
+      font: {
         family: $font-main;
         weight: 500;
         size: 16px;
       }
+
       text-align: center;
     }
 
@@ -57,18 +68,11 @@
       background-color: $color-secondary;
       display: flex;
       justify-content: center;
-      align-items: center; 
+      align-items: center;
       position: relative;
       top: 53px;
     }
   }
 
-  
+
 }
-  
-
-
-
-
-
-

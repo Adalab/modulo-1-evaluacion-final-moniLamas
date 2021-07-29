@@ -1,18 +1,31 @@
 .footer {
-    height: 465px;
+    // height: 465px;
     background-color: $color-dgblue;
     text-align: center;
     color: $color-secondary;
     font-family: $font-main;
+    line-height: 30px;
 
-    &__links {
-        font: {
-            size: 16px; 
-            
-        }
+    &__menu {
+        height: 210px;
+        padding-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__social-media {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        height: 90px;
     }
 
     &__copy {
         font-size: 14px;
+        padding-top: 30px;
+        padding-bottom: 45px;
+        &--heart {
+            color: $color-orange;
+        }
     }
 }

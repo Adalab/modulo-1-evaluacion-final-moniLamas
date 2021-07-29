@@ -1,5 +1,14 @@
 .footer {
+    height: 465px;
     background-color: $color-dgblue;
     text-align: center;
     color: $color-secondary;
+
+    &__links {
+        color: $color-secondary;
+    }
+
+    &__copy {
+        color: $color-secondary;
+    }
 }

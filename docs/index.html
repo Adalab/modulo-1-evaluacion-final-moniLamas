@@ -16,26 +16,30 @@
 <body>
   <header id="header" class="header">
     <div class="header__menu">
-      <a href="https://adalab.es/" title="Menu"><img src="./assets/images/ico-menu.svg" alt="Menu"></a>
+      <a href="https://adalab.es/" title="Menu" target="_blank"><img src="./assets/images/ico-menu.svg" alt="Menu"></a>
     </div>
 
-    <div class="header__title">
+    <hgroup class="header__title">
       <h1 class="header__title--bigtitle">Anonymous proxy</h1>
       <h3 class="header__title--subtitle">In hac habitasse platea disctumst.</h3>
 
       <div class="header__title--arrow">
-        <a href="#reasons"><img src="./assets/images/ico-scroll-down.svg" alt="" title="Go to 3 reasons"></a>
+        <a class="header__title--arrow--link" href="#reasons" title="3 reasons to purchase"><img
+            src="./assets/images/ico-scroll-down.svg" alt="Arrow down"></a>
       </div>
-    </div>
-
-
+    </hgroup>
   </header>
   <main>
     
     
   </main>
   <footer class="footer">
-    <div class="footer__menu">
+    <div class="footer__arrow">
+      <a class="footer__arrow--link" href="#header" title="Home"><img src="./assets/images/ico-arrow.svg"
+          alt="Arrow up"></a>
+    </div>
+
+    <nav class="footer__menu">
       <ul>
         <li>
           <a class="link footer__links" href="https://adalab.es">Articles</a>
@@ -47,12 +51,15 @@
           <a class="link footer__links" href="https://adalab.es">Events</a>
         </li>
         <li>
+          <a class="link footer__links" href="https://adalab.es">Reasons</a>
+        </li>
+        <li>
           <a class="link footer__links" href="https://adalab.es">Tips</a>
         </li>
       </ul>
-    </div>
+    </nav>
 
-    <div class="footer__social-media">
+    <nav class="footer__social-media">
       <ul>
         <li>
           <a class="link footer__links" href="https://adalab.es">Twitter</a>
@@ -65,7 +72,8 @@
         </li>
       </ul>
 
-    </div>
+    </nav>
+
     <div class="footer__copy">
       <p>&copy;2020</p>
       <p> we <span class="footer__copy--heart">&#10084;</span> components</p>

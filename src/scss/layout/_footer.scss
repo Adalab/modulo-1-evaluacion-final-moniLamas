@@ -6,6 +6,10 @@
 
     &__links {
         color: $color-secondary;
+        font: {
+            family: $font-main;
+            
+        }
     }
 
     &__copy {

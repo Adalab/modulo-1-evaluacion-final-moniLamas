@@ -6,6 +6,26 @@
     font-family: $font-main;
     line-height: 30px;
 
+    &__arrow {
+        width: 45px;
+        height: 45px;
+        border-radius: 22.5px;
+        background-color: $color-secondary;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        position: relative;
+        top: -22.5px;
+        margin: 0 auto;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+
+  
+        &--link {
+          padding: 10px;
+        }
+      }
+
     &__menu {
         height: 210px;
         padding-top: 60px;

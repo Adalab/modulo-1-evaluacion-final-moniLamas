@@ -4,5 +4,22 @@
   background-image: url('../images/cover.jpg');
   margin: 0;
   padding: 0;
+
+  &--menu {
+    height: 44px;
+    width: 44px;
+    background-color: $color-cel;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+  }
+
+
+  
 }
+
+
+
+
 

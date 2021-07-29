@@ -3,16 +3,16 @@
     background-color: $color-dgblue;
     text-align: center;
     color: $color-secondary;
+    font-family: $font-main;
 
     &__links {
-        color: $color-secondary;
         font: {
-            family: $font-main;
+            size: 16px; 
             
         }
     }
 
     &__copy {
-        color: $color-secondary;
+        font-size: 14px;
     }
 }

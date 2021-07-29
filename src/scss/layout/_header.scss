@@ -3,22 +3,54 @@
   height: 100vh;
   background-image: url('../images/cover.jpg');
   background-size: cover;
-  margin: 0;
-  padding: 0;
-
+  background-position: center;
+ 
   &--menu {
+    position: fixed;
     height: 44px;
     width: 44px;
     background-color: $color-cel;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
   }
 
+  &--title {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &--title--bigtitle {
+    color: $color-secondary;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 2px rgba(0, 0, 0, 0.2);
+    font: {
+      family: $font-title;
+      size: 42px;
+    }
+    width: 290px;
+  }
+
+  &--title--subtitle {
+    color: $color-secondary;
+    font:{
+      family: $font-main;
+      weight: 500;
+      size: 16px;
+    }
+    text-align: center;
+  }
+    
+
+  }
+  
 
   
-}
+
 
 
 

@@ -7,17 +7,16 @@
   text-align: center;
   padding: 284px 15px 50px 15px;
 
-    @media (min-width: 768px) {
-      padding-bottom: 45px;
+  @media (min-width: 768px) {
+    padding-bottom: 45px;
 
-    }
-   
+  }
+
 
   &__title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 
     &--bigtitle {
       color: $color-secondary;
@@ -65,8 +64,9 @@
         family: $font-main;
         weight: 500;
         size: 16px;
-        
+
       }
+
       @media (min-width: 1200px) {
         font-size: 24px;
       }
@@ -82,6 +82,12 @@
       align-items: center;
       position: relative;
       top: 53px;
+      scroll-behavior: smooth;
+      &:hover {
+        transform:translateY(20px);
+        transition: transform 1s ease;
+      }
+
       @media (min-width: 1200px) {
         top: 45px;
       }

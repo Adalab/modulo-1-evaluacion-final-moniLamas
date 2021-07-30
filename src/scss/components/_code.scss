@@ -1,1 +1,13 @@
+@keyframes heart {
+    0% {
+        transform: none;
+    }
 
+    50% {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: none;
+    }
+}

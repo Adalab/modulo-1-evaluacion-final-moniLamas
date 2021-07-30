@@ -70,6 +70,8 @@
         color: $color-orange;
         border: 2px solid $color-orange;
         border-radius: 22.5px;
+        animation: heart 10s infinite;
+        transform-origin: center;
 
         font: {
             family: $font-main;

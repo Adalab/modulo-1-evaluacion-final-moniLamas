@@ -1,12 +1,13 @@
 .footer {
-    // height: 465px;
     background-color: $color-dgblue;
     text-align: center;
     color: $color-secondary;
+
     font: {
         family: $font-main;
         size: 16px;
     }
+
     line-height: 30px;
     padding: 15px 15px 45px 15px;
 
@@ -30,14 +31,13 @@
 
     &__menu {
         padding-bottom: 30px;
-        display: flex;
-        justify-content: center;
+
+        @media (min-width: 768px) {
+            padding-bottom: 0;
+        }
     }
 
     &__social-media {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         height: 90px;
     }
 
@@ -48,7 +48,28 @@
         &--heart {
             color: $color-orange;
         }
+
+        @media (min-width: 768px) {
+            order: -1;
+            margin-top: 0;
+        }
+    }
+
+    @media (min-width: 768px) {
+        padding: 0px 40px 45px 40px;
+    }
+
+    @media (min-width: 1200px) {
+        padding-left: 370px;
+        padding-right: 370px;
+    }
+
+    &__container {
+        @media (min-width: 768px) {
+            text-align: left;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
     }
 }
-
-

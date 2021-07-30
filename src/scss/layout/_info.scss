@@ -2,22 +2,36 @@
     background-color: $color-iceblue;
     padding: 30px 15px 60px 15px;
     text-align: center;
-    font-family: $font-main;
-    font-size: 18px;
-    display: grid;
-    grid-template-columns: 1;
-
-    &--title{
-        font-family: $font-title;
-        font-size: 24px;
+    font: {
+        family: $font-main;
+        size: 18px;
+    }
+    &--title {
+        font:{
+            family: $font-title;
+            size: 24px;
+        }
         line-height: 30px;
         text-transform: capitalize;
         margin-bottom: 45px;
     }
 
-    &--article {
+    &--article--set {
         width: 184px;
         margin-bottom: 45px;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: auto;
     }
-    
+
+    &--button {
+        width: 184px;
+        height: 45px;
+        color: $color-secondary;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        background-color: $color-orange;
+    }
+
 }

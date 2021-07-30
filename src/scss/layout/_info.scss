@@ -1,1 +1,23 @@
+.main__info {
+    background-color: $color-iceblue;
+    padding: 30px 15px 60px 15px;
+    text-align: center;
+    font-family: $font-main;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1;
 
+    &--title{
+        font-family: $font-title;
+        font-size: 24px;
+        line-height: 30px;
+        text-transform: capitalize;
+        margin-bottom: 45px;
+    }
+
+    &--article {
+        width: 184px;
+        margin-bottom: 45px;
+    }
+    
+}

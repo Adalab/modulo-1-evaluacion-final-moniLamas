@@ -5,7 +5,7 @@
     font: {
         family: $font-main;
     }
-    padding: 30px 15px;
+    padding: 30px 15px 45px 15px;
 
     &--intro {
         font-size: 14px;
@@ -40,7 +40,6 @@
         color: $color-orange;
         border: 2px solid $color-orange;
         border-radius: 22.5px;
-        margin-bottom: 45px;
         font: {
             family: $font-main;
             weight: 500;

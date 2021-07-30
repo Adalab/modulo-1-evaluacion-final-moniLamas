@@ -1,36 +1,66 @@
 .main__claim {
-    width: 100%;
-    height: 376px;
     background-color: $color-secondary;
+
     font: {
         family: $font-main;
+        size: 18px;
     }
+
+    line-height: 30px;
     padding: 30px 15px 45px 15px;
+
+    @media (min-width: 768px) {
+        padding: 30px 40px 60px 40px;
+    }
+
+    @media (min-width: 1200px) {
+        padding: 60px 275px;
+    }
 
     &--intro {
         font-size: 14px;
-        line-height: 30px;
         color: $color-lblue;
+
+        @media (min-width: 1200px) {
+            font-size: 16px;
+        }
     }
 
     &--title {
         width: 250px;
         margin-bottom: 15px;
-        line-height: 30px;
         color: $color-bg;
         text-transform: capitalize;
-        font:{
+
+        font: {
             family: $font-title;
-            size: 24px; 
+            size: 24px;
+        }
+
+        @media (min-width: 768px) {
+            width: 100%;
+            font-size: 26px;
+            line-height: 45px;
+            margin-bottom: 30px;
+        }
+        @media (min-width: 1200px) {
+            font-size: 32px;
         }
     }
 
     &--text {
         color: $color-greyb;
-        font-size: 18px;
-        line-height: 30px;
-        letter-spacing:0.06em;
+        letter-spacing: 0.06em;
         margin-bottom: 30px;
+        @media (min-width: 768px) {
+            font-size: 20px;
+            letter-spacing: 0.01em;
+        }
+        @media (min-width: 1200px) {
+            font-size: 20px;
+            letter-spacing: 0.01em;
+        }
+
     }
 
     &--button {
@@ -40,18 +70,28 @@
         color: $color-orange;
         border: 2px solid $color-orange;
         border-radius: 22.5px;
+
         font: {
             family: $font-main;
             weight: 500;
             size: 20px;
         }
 
+        line-height: 45px;
+
+        @media (min-width: 768px) {
+            width: 91px;
+        }
+        @media (min-width: 1200px) {
+            width: 160px;
+        }
+
         &:hover {
             color: $color-secondary;
             background-color: $color-orange;
-            
+
         }
 
-        
+
     }
 }

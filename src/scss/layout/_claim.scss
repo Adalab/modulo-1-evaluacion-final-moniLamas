@@ -46,6 +46,10 @@
             size: 20px;
         }
 
+        &:visited {
+            color:$color-orange;
+        }
+
         
     }
 }

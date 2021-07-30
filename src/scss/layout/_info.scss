@@ -2,26 +2,34 @@
     background-color: $color-iceblue;
     padding: 30px 15px 60px 15px;
     text-align: center;
+
     font: {
         family: $font-main;
         size: 18px;
     }
+
     &--title {
-        font:{
+        font: {
             family: $font-title;
             size: 24px;
         }
+
         line-height: 30px;
         text-transform: capitalize;
         margin-bottom: 45px;
     }
 
-    &--article--set {
-        width: 184px;
-        margin-bottom: 45px;
+    &--article {
         display: grid;
         grid-template-columns: 1fr;
-        padding: auto;
+        justify-content: center;
+
+        &--set {
+            width: 184px;
+            margin-bottom: 45px;
+
+        }
+
     }
 
     &--button {
@@ -31,7 +39,22 @@
         font-weight: 500;
         font-size: 20px;
         text-align: center;
+        border: 2px solid $color-orange;
+        border-radius: 22.5px;
         background-color: $color-orange;
+
+        &:visited {
+            color: $color-secondary;
+        }
+
+        &:hover {
+            color: $color-orange;
+            background-color: $color-secondary;
+            
+        }
+
+        &:active {}
+
     }
 
 }

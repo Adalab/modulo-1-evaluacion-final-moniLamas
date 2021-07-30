@@ -1,10 +1,14 @@
 .footer {
-    height: 465px;
+    // height: 465px;
     background-color: $color-dgblue;
     text-align: center;
     color: $color-secondary;
-    font-family: $font-main;
+    font: {
+        family: $font-main;
+        size: 16px;
+    }
     line-height: 30px;
+    padding: 15px 15px 45px 15px;
 
     &__arrow {
         width: 45px;
@@ -15,20 +19,16 @@
         justify-content: center;
         align-items: baseline;
         position: relative;
-        top: -22.5px;
+        top: -37.5px;
         margin: 0 auto;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 
-
-  
         &--link {
-          padding: 11px;
+            padding: 10px;
         }
-      }
+    }
 
     &__menu {
-        height: 210px;
-        padding-top: 20px;
         padding-bottom: 30px;
         display: flex;
         justify-content: center;
@@ -37,15 +37,18 @@
     &__social-media {
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        justify-content: center;
         height: 90px;
     }
 
     &__copy {
         font-size: 14px;
         margin-top: 30px;
+
         &--heart {
             color: $color-orange;
         }
     }
 }
+
+

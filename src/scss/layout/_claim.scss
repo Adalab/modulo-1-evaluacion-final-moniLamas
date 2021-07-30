@@ -46,8 +46,10 @@
             size: 20px;
         }
 
-        &:visited {
-            color:$color-orange;
+        &:hover {
+            color: $color-secondary;
+            background-color: $color-orange;
+            
         }
 
         

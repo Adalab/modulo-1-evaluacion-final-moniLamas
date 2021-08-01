@@ -1,94 +1,64 @@
-#Evaluación Final del módulo 1 de Moni Lamas
-Julio de 2021
+## Evaluación Final del módulo 1 de Moni Lamas Julio de 2021
 
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+He realizado una página web a partir de un prototipo creado en Zeplin. Siguiendo las siguientes instrucciones:
+- Utilizar SASS
+- Utilizar Flexbox y Grid layout
+- Utilizar media queries para resolver el responsive
+- Utilizar transiciones para las interacciones.
+- Código depurado y perfectamente identado.
+- Utilizar git para el control de versiones.
 
-## Adalab web starter kit
+Pasos realizados para ejecutar el proyecto:
+1. Revisar bien la documentación facilitada para realizar el proyecto.
 
-Ahoy! Este es nuestro Starter Kit creado en **node y gulp**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
+2. Hacer un boceto a papel de la estructura de la web. Dividir en secciones primero en las 3 pricipales (header, main y footer) y después subsecciones para el main.
 
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+3. Crear una carpeta donde alojar el proyecto en local.
+4. Crear el repositorio en GitHub  y clonarlo en mi carpeta del proyecto.
+5. Descargar el Adalab web starter kit en mi repositorio local para a continuación crear, eliminar y modificar carpetas y ficheros necesarios para realizar el proyecto.
+> [Información del Adalab web starter kit y como utilizarlo](https://github.com/Adalab/adalab-web-starter-kit)
+> La estructura de carpetas queda del siguiente modo:
+src
+ ├─ api // los ficheros de esta carpeta se copian en public/api/
+ |  └─ data.json
+ ├─ images
+ |  └─ logo.jpg
+ ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
+ |  ├─ main.js
+ |  └─ events.js
+ ├─ scss
+ |  ├─ components
+ |  ├─ core
+ |  ├─ layout
+ |  └─ pages
+ └─ html
+    └─ partials
 
-En el Kit hay 3 tipos de ficheros y carpetas:
+6. Crear la estructura semántica de cada parte de la web en lenguaje HTML e incorporar en cada sección su contenido.
+7. Dar formato al contenido con SASS. He uliziado para ello variables, anidaciones y parciales. Todo bien enlazado. 
+8. Guardando cambios y subiendolo a GitHub cada pocos movimientos.
+9. Crear las media queries para el responsive en cada sección o elemento que lo precise.
+10. Depurar código y verificar la identación.
+11. Dejo para el final las transiciones y las animaciones para personalizar mi proyecto.
+12. Revisión del resultado en varios dispositivos para comprobar el comportamiento responsive.
 
-- Los ficheros que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos.
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- Las carpetas `public/` y `docs/`, que son generadas automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/`, los procesa y los genera dentro de `public/` y `docs/`.
 
-## Guía de inicio rápido
+------------
 
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) para trabajar con este Starter Kit:
 
-### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
 
-1. **Crea tu propio repositorio.**
-1. Descarga este **Starter kit desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este Starter kit en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos**.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
+Este proyecto me ha permitido poner en práctica todo lo aprendido en este primer módulo del curso intensivo. La ampliación de tiempo me ha permitio realizarlo con calma y poner mucho cuidado en los detalles. Además de poder docentarme bien para la realización de las partes que me han resultado más díficiles. 
 
-```bash
-npm install
-```
+Siento que he asentado conocimientos, me ha permitido tener una visión global de un proyecto individual, que aunque en la vida real no sea habitual, la organización debe ser el punto de partida de todo proyecto sea o no colectivo. 
 
-### Pasos para arrancar el proyecto:
+Para cualquier duda o comentario puede escribirme a traves de mi [LinkedIn](https://www.linkedin.com/in/m%C3%B3nica-lamas/)
 
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
 
-```bash
-npm start
-```
 
-Este comando:
+------------
 
-- **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
-- También **procesa los ficheros** HTML, SASS / CSS y JS y los **genera y guarda en la carpeta `public/`**. Por ejemplo:
-  - Convierte los ficheros SASS en CSS.
-  - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
 
-Después de ejecutar `npm start` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
+Para realizar este Redme he utilizado el lenguaje markdown, orientadome con la guía de Javier Cristóbal [Sintaxis Markdown](https://markdown.es/sintaxis-markdown/).
 
-### Pasos para publicar el proyecto en GitHub Pages:
 
-Para generar tu página para producción ejecuta el comando:
-
-```bash
-npm run docs
-```
-
-Y a continuación:
-
-1. Sube a tu repo la carpeta `docs/` que se te acaba de generar.
-1. Entra en la pestaña `settings` de tu repo.
-1. Y en el apartado de GitHub Pages activa la opción **master branch /docs folder**.
-1. Y ya estaría!!!
-
-Además, los comandos:
-
-```bash
-npm run push-docs
-```
-
-o
-
-```bash
-npm run deploy
-```
-
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
-
-## Flujo de archivos con Gulp
-
-Estas tareas de Gulp producen el siguiente flujo de archivos:
-
-![Gulp flow](./gulp-flow.png)
-
-## `gulpfile.js` y `config.json`
-
-Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
-
-De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
+###Muchas gracias!

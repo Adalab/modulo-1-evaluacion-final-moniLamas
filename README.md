@@ -1,12 +1,16 @@
 ## Evaluación Final del módulo 1 de Moni Lamas Julio de 2021
 
-He realizado una página web a partir de un prototipo creado en Zeplin. Siguiendo las siguientes instrucciones:
+He realizado una página web a partir de un prototipo creado en [Zeplin](https://app.zeplin.io/project/5c8ff9170ffc6f2525b2790c). Se trata de una landing page.
+
+Siguiendo las siguientes instrucciones:
 - Utilizar SASS
 - Utilizar Flexbox y Grid layout
 - Utilizar media queries para resolver el responsive
 - Utilizar transiciones para las interacciones.
 - Código depurado y perfectamente identado.
 - Utilizar git para el control de versiones.
+
+––––––
 
 Pasos realizados para ejecutar el proyecto:
 1. Revisar bien la documentación facilitada para realizar el proyecto.

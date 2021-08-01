@@ -21,7 +21,8 @@ Pasos realizados para ejecutar el proyecto:
 4. Crear el repositorio en GitHub  y clonarlo en mi carpeta del proyecto.
 5. Descargar el Adalab web starter kit en mi repositorio local para a continuación crear, eliminar y modificar carpetas y ficheros necesarios para realizar el proyecto.
 > [Información del Adalab web starter kit y como utilizarlo](https://github.com/Adalab/adalab-web-starter-kit)
-> La estructura de carpetas queda del siguiente modo:
+> La estructura de carpetas queda del siguiente modo: 
+~~~
 src
  ├─ api // los ficheros de esta carpeta se copian en public/api/
  |  └─ data.json
@@ -37,6 +38,8 @@ src
  |  └─ pages
  └─ html
     └─ partials
+ ~~~
+
 
 6. Crear la estructura semántica de cada parte de la web en lenguaje HTML e incorporar en cada sección su contenido.
 7. Dar formato al contenido con SASS. He uliziado para ello variables, anidaciones y parciales. Todo bien enlazado. 
@@ -65,4 +68,4 @@ Para cualquier duda o comentario puede escribirme a traves de mi [LinkedIn](http
 Para realizar este Redme he utilizado el lenguaje markdown, orientadome con la guía de Javier Cristóbal [Sintaxis Markdown](https://markdown.es/sintaxis-markdown/).
 
 
-###Muchas gracias!
+### Muchas gracias!

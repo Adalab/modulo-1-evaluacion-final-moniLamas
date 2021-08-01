@@ -10,7 +10,7 @@ Siguiendo las siguientes instrucciones:
 - Código depurado y perfectamente identado.
 - Utilizar git para el control de versiones.
 
-––––––
+------------
 
 Pasos realizados para ejecutar el proyecto:
 1. Revisar bien la documentación facilitada para realizar el proyecto.
@@ -21,7 +21,8 @@ Pasos realizados para ejecutar el proyecto:
 4. Crear el repositorio en GitHub  y clonarlo en mi carpeta del proyecto.
 5. Descargar el Adalab web starter kit en mi repositorio local para a continuación crear, eliminar y modificar carpetas y ficheros necesarios para realizar el proyecto.
 > [Información del Adalab web starter kit y como utilizarlo](https://github.com/Adalab/adalab-web-starter-kit)
-> La estructura de carpetas queda del siguiente modo: 
+
+La estructura de carpetas queda del siguiente modo: 
 ~~~
 src
  ├─ api // los ficheros de esta carpeta se copian en public/api/

@@ -39,7 +39,7 @@
     }
 
     &__menu {
-        padding-bottom: 30px;
+        padding-bottom: 45px;
 
         @media (min-width: 768px) {
             padding-bottom: 0;
@@ -47,26 +47,34 @@
     }
 
     &__social-media {
-        height: 90px;
+        // height: 90px;
+        padding-bottom: 45px;
     }
 
     &__copy {
         font-size: 14px;
-        margin-top: 30px;
 
 
         &--heart {
             color: $color-orange;
         }
 
-        @media (min-width: 768px) {
-            order: -1;
-            margin-top: 0;
+        &--love {
+            @media (min-width: 768px) {
+                color: $color-orange;
+            }
         }
-    }
 
+        @media (min-width: 768px) {
+            // order: -1;
+            margin-top: 0;
+            
+            }
+        }
+    
     @media (min-width: 768px) {
         padding: 0px 40px 45px 40px;
+
     }
 
     @media (min-width: 1200px) {

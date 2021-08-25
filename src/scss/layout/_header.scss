@@ -22,13 +22,13 @@
 .nav-list {
   width: calc(100% - 40px);
   height: 100%;
-  background-color: aqua;
+  background-color: $color-dgblue;
 }
 
 .nav-list a {
   font-size: 1.8em;
-  color:azure;
-  padding: 0 1.5em;
+  color: $color-iceblue;
+  padding: 1em 1.5em;
   height: 40px;
   border-bottom: 1px solid white;
   display: flex;
@@ -40,8 +40,8 @@
   height: 40px;
   padding: 0;
   border: none;
-  background-color: aqua;
-  color: azure;
+  background-color: $color-orange;
+  color: $color-iceblue;
   border-radius: 0 0.5rem 0.5rem 0;
   font-size: 1.5em;
   position: absolute;

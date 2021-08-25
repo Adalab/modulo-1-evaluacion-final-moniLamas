@@ -1,11 +1,50 @@
 .header {
-  &__menu {
-    position: fixed;
-    height: 44px;
-    width: 44px;
-    background-color: $color-cel;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  font: {
+    family: $font-main;
+    size: 18px;
+}
+}
+.main-navbar {
+  position: fixed;
+  left: calc(-100% + 40px);
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transition: 320ms;
+  z-index: 1;
+}
+
+.main-navbar.is-open {
+  left: 0;
+
+}
+
+.nav-list {
+  width: calc(100% - 40px);
+  height: 100%;
+  background-color: aqua;
+}
+
+.nav-list a {
+  font-size: 1.8em;
+  color:azure;
+  padding: 0 1.5em;
+  height: 40px;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+
+.toggle-btn {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  background-color: aqua;
+  color: azure;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-size: 1.5em;
+  position: absolute;
+  right: 0;
+  top: 0;
 }

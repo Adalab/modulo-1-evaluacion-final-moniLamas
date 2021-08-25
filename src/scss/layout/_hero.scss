@@ -5,22 +5,19 @@
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 284px 15px 50px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 
   @media (min-width: 768px) {
     padding-bottom: 45px;
-
   }
 
-
   &__title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+   
     &--bigtitle {
       color: $color-secondary;
-
       text: {
         transform: uppercase;
         shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
@@ -73,15 +70,13 @@
     }
 
     &--arrow {
-      width: 45px;
-      height: 45px;
+      display: inline-flex;
+      width: 40px;
+      height: 40px;
       border-radius: 22.5px;
       background-color: $color-secondary;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      position: relative;
-      top: 53px;
+      margin-bottom: 53px;
+      margin-top: 45px;
       
       &:hover {
         transform:translateY(20px);
@@ -89,10 +84,11 @@
       }
 
       @media (min-width: 1200px) {
-        top: 45px;
+        margin-top: 45px;
       }
 
       &--link {
+        width: 45px;
         padding: 10px;
       }
     }
